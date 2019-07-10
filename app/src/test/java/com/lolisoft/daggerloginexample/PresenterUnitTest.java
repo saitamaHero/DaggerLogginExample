@@ -61,4 +61,12 @@ public class PresenterUnitTest {
 
         verify(mockedView, never()).showUserNotValid();
     }
+
+    @Test
+    public void verifyShowUserNotValid()
+    {
+        presenter.getCurrentUser();
+
+        verify(mockedView, times(1)).showUserNotValid();
+    }
 }
