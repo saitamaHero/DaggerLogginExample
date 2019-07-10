@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DaggerLoginExample</string>
+    <string name="sign_in">Entrar</string>
+    <string name="name">Nombre</string>
+    <string name="last_name">Apellido</string>
+    <string name="msg_invalid_user">Usuario no es correcto</string>
+    <string name="msg_empty_field">No pueden haber campos en blanco</string>
+    <string name="msg_user_saved">Usuario Guardado! :)</string>
+</resources>
