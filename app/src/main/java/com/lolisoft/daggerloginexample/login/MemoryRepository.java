@@ -12,10 +12,10 @@ public class MemoryRepository implements LoginRepository {
 
     @Override
     public User getUser() {
-        /*if(mUser == null){
+        if(mUser == null){
             mUser = new User("Dionicio", "Acevedo");
             mUser.setId(0);
-        }*/
+        }
 
         return mUser;
     }
